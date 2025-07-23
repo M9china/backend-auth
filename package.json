@@ -1,0 +1,29 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "description": "in this repo I am playing around with node,express and jwt.",
+  "repository": {
+    "type": "git",
+    "url": "node-backend"
+  },
+  "keywords": [
+    "node",
+    "express",
+    "jwt"
+  ],
+  "author": "Nqobile Mvundlela",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^6.0.0",
+    "cors": "^2.8.5",
+    "dotenv": "^17.2.0",
+    "express": "^5.1.0",
+    "jsonwebtoken": "^9.0.2",
+    "pg": "^8.16.3"
+  }
+}
